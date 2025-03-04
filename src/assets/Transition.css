@@ -1,0 +1,87 @@
+/* styles.css 
+.fade-enter {
+  opacity: 0;
+  transform: translateY(-10px);
+  position: absolute;
+  width: 100%;
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 300ms;
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+  position: absolute;
+  width: 100%;
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: transform 300ms;
+}
+*/
+/* styles.css */
+.timeline {
+  position: relative;
+  padding-left: 30px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 9px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #000;
+}
+
+.timeline-item {
+  
+  position: relative;
+  padding: 10px 0;
+  padding-left: 10px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.table-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.table-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.table-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.table-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}

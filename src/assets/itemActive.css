@@ -1,0 +1,29 @@
+.active {
+    border-bottom: 2px solid blue;
+    transition: border-bottom 0.3s ease;
+    cursor:pointer
+}
+
+.desactive {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+    cursor:pointer
+}
+ .desactive:hover {
+    border-bottom: 2px solid rgb(173, 173, 173);
+ }
+
+ .fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}

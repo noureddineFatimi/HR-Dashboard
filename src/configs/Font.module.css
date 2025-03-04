@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'black';
+    src: url("../assets/font/Poppins-Black.ttf");
+}
+
+@font-face {
+    font-family: 'Blackitalic';
+    src: url("../assets/font/Poppins-BlackItalic.ttf");
+}
+
+ @font-face {
+    font-family: 'Italic';
+    src: url("../assets/font/Poppins-Italic.ttf");}
+
+@font-face {
+    font-family: 'LightItalic';
+    src: url("../assets/font/Poppins-LightItalic.ttf");
+}
+
+.bold {
+  font-family: 'bold';
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url("../assets/font/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'boldItalic';
+    src: url("../assets/font/Poppins-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: 'extraBold';
+    src: url("../assets/font/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: 'extraBoldItalic';
+    src: url("../assets/font/Poppins-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: 'extraLight';
+    src: url("../assets/font/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url("../assets/font/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url("../assets/font/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url("../assets/font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'SemiBold';
+    src: url("../assets/font/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Thin';
+    src: url("../assets/font/Poppins-Thin.ttf");
+}
+
+.Btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200px;
+    height: 40px;
+    border: none;
+    padding: 0px 15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    transition-duration: 0.3s;
+  }
+
+  .Italic {
+    font-family: 'Italic';
+  }
+  
+  .svg {
+    width: 16px;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    fill: white;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:hover {
+    color: transparent;
+  }
+  
+  .Btn:hover svg {
+    right: 47%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:active {
+    transform: translate(3px, 3px);
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 0px white;
+  }
+  
+
+.TableauDeBord {
+    font-family: 'extraBold';
+}
+
+.home {
+    cursor: pointer;
+}
+
+.SemiBold {
+    font-family: 'SemiBold';
+}
+
+.Item{
+    font-family: 'SemiBold';
+}
+
+
+.ItemsEmployé {
+    font-family: 'SemiBold';
+    font-size: 0.8rem;
+}
+
+.SousItems{
+    font-family: 'Medium';
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: nowrap;
+    gap:5px;
+}
+
+.Regular {
+    font-family: 'Regular';
+    
+}
+
+.black {
+    font-family: "black";
+}
+
+.ExcelButton {
+   
+        display: inline-block;
+        outline: 0;
+        border: 0;
+        cursor: pointer;
+        will-change: box-shadow,transform;
+        background: radial-gradient( 100% 100% at 100% 140%, #89E5FF 0%, green 100% );
+        box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+        padding: 0 2em;
+        border-radius: 0.3em;
+        color: #fff;
+        height: 2.6em;
+        text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+        transition: box-shadow 0.15s ease, transform 0.15s ease;
+        font-family: 'black';
+        
+     
+}
+.ExcelButton:hover {
+        box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+        transform: translateY(-0.1em);
+      }
+      
+.ExcelButton:active {
+        box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+        transform: translateY(0em);
+      }
+
+.Medium {
+    font-family: 'Medium';
+    
+}
+
+.Light {
+    font-family: 'Light';
+}
+
+.boutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color:black;
+    border: solid 3px transparent;
+    background-clip: padding-box;
+    box-shadow: 0px 0px 0px 3px #ffffff00;
+    color: white;
+    min-height: 43px;
+    padding: 0 13px 0 13px;
+    border-radius: 50px;
+    transition: all .5s ease;
+    font-family: 'Regular';
+    cursor:pointer;
+    padding-left: 0;
+  }
+  
+  .boutton:active {
+    transform: scale(.9);
+    transition: all 100ms ease;
+  }
+  
+  .boutton:hover {
+    box-shadow: 0px 0px 0px 3px black;
+  }
+  
+  .boutton svg {
+    width: 16px;
+  }
+
+  .addbutton {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #34974d;
+    background-color: #3aa856;
+    font-family: 'Medium';
+  }
+  
+  .addbutton, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+  
+  .addbutton .button__text {
+    transform: translateX(12px);
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .addbutton .button__icon {
+    position: absolute;
+    transform: translateX(154px);
+    height: 100%;
+    width: 39px;
+    background-color: #34974d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .addbutton .addsvg {
+    width: 30px;
+    stroke: #fff;
+  }
+  
+  .addbutton:hover {
+    background: #34974d;
+  }
+  
+  
+  
+  .addbutton:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .addbutton:active .button__icon {
+    background-color: #2e8644;
+  }
+  
+  .addbutton:active {
+    border: 1px solid #2e8644;
+  }

@@ -1,43 +1,65 @@
+# Auto Hall Employee Management Dashboard
 
-## Available Scripts
+## Project Overview
+This project is a comprehensive employee management dashboard developed for Auto Hall using React and TypeScript. The application serves as a dynamic interface to an existing .NET backend API with SQL Server database integration.
 
-In the project directory, you can run:
+## Features
+- **Employee Management**: Complete CRUD operations for employee records
+- **Employee Details**: View comprehensive employee information including:
+  - Personal details (name, birth date, CIN, etc.)
+  - Contact information
+  - Career path and history
+  - Department and hierarchical structure
+  - Diplomas and qualifications
+  - Banking information
+  - Family situation
+- **Data Visualization**: Clean and intuitive UI for navigating large datasets
+- **Advanced Filtering**: Filter employees by various criteria including matricule
+- **Data Export**: Export employee data to Excel
+- **Employee History**: Track and view historical changes to employee records
+- **Responsive Design**: Works across different device sizes
 
-### `npm start`
+## Technology Stack
+- **Frontend**:
+  - React
+  - TypeScript
+  - Material UI (@mui/material)
+  - React Router DOM
+  - CSS for custom styling
+- **Project Structure**:
+  - Component-based architecture
+  - Reusable UI components
+  - Clean folder organization (assets, components, configs, pages, routes)
+- **Backend Integration**:
+  - RESTful API consumption
+  - JWT Authentication
+  - Async data fetching
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshots
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Employee List View
+![Employee List](src\assets\images\image4.png)
+*Browse all employees with filtering capabilities and export options*
 
-### `npm test`
+### Employee Detail View
+![Employee Detail](src\assets\images\image.png)
+*Comprehensive employee information with tabbed navigation*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Employee Edit Mode
+![Employee Edit](src\assets\images\image2.png)
+*Form-based editing interface with validation*
 
-### `npm run build`
+### Career Timeline
+![Career Timeline](src\assets\images\image3.png)
+*Visual representation of employee career progression*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Implementation Highlights
+- **Authentication System**: Secure login with role-based permissions
+- **Side Navigation**: Intuitive drawer-based navigation system
+- **State Management**: Efficient React state management for data flow
+- **Form Handling**: Advanced form controls with validation
+- **API Integration**: Structured API service layer for data operations
+- **Code Organization**: Well-structured codebase with clear separation of concerns
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
+The application is configured to run on port 3000 locally and can be deployed to any static hosting service.

@@ -38,20 +38,28 @@ This project is a comprehensive employee management dashboard developed for Auto
 ## Screenshots
 
 ### Employee List View
-![Employee List](src/assets/images/image4.png)
-*Browse all employees with filtering capabilities and export options*
+<p align="center">
+  <img src="src/assets/images/image4.png" alt="Employee List" width="600">
+</p>
+<p align="center"><em>Browse all employees with filtering capabilities and export options</em></p>
 
 ### Employee Detail View
-![Employee Detail](src/assets/images/image.png)
-*Comprehensive employee information with tabbed navigation*
+<p align="center">
+  <img src="src/assets/images/image.png" alt="Employee Detail" width="600">
+</p>
+<p align="center"><em>Comprehensive employee information with tabbed navigation</em></p>
 
 ### Employee Edit Mode
-![Employee Edit](src/assets/images/image2.png)
-*Form-based editing interface with validation*
+<p align="center">
+  <img src="src/assets/images/image2.png" alt="Employee Edit" width="600">
+</p>
+<p align="center"><em>Form-based editing interface with validation</em></p>
 
 ### Career Timeline
-![Career Timeline](src/assets/images/image3.png)
-*Visual representation of employee career progression*
+<p align="center">
+  <img src="src/assets/images/image3.png" alt="Career Timeline" width="600">
+</p>
+<p align="center"><em>Visual representation of employee career progression</em></p>
 
 ## Implementation Highlights
 - **Authentication System**: Secure login with role-based permissions

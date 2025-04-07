@@ -38,7 +38,7 @@ This project is a comprehensive employee management dashboard developed for Auto
 ## Screenshots
 
 ### Employee List View
-![Employee List](src\assets\images\image4.png)
+![Employee List](src/assets/images/image4.png)
 *Browse all employees with filtering capabilities and export options*
 
 ### Employee Detail View

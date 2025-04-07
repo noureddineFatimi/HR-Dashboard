@@ -42,15 +42,15 @@ This project is a comprehensive employee management dashboard developed for Auto
 *Browse all employees with filtering capabilities and export options*
 
 ### Employee Detail View
-![Employee Detail](src\assets\images\image.png)
+![Employee Detail](src/assets/images/image.png)
 *Comprehensive employee information with tabbed navigation*
 
 ### Employee Edit Mode
-![Employee Edit](src\assets\images\image2.png)
+![Employee Edit](src/assets/images/image2.png)
 *Form-based editing interface with validation*
 
 ### Career Timeline
-![Career Timeline](src\assets\images\image3.png)
+![Career Timeline](src/assets/images/image3.png)
 *Visual representation of employee career progression*
 
 ## Implementation Highlights
